@@ -1,5 +1,3 @@
-use std::fs::File;
-use std::io::{BufRead, BufReader};
 use counter::Counter;
 
 use pyo3::prelude::*;
