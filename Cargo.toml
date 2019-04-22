@@ -1,0 +1,17 @@
+[package]
+name = "vocab"
+version = "0.1.0"
+authors = ["Michał Jastrzębski <inc0@github.com>"]
+edition = "2018"
+
+[lib]
+name = "vocab"
+crate-type = ["cdylib"]
+
+[dependencies]
+csv = "1"
+counter = "0.4"
+
+[dependencies.pyo3]
+version = "0.6.0"
+features = ["extension-module"]
