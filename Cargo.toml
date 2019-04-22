@@ -8,10 +8,6 @@ edition = "2018"
 name = "vocab"
 crate-type = ["cdylib"]
 
-[dependencies]
-csv = "1"
-counter = "0.4"
-
 [dependencies.pyo3]
 version = "0.6.0"
 features = ["extension-module"]
